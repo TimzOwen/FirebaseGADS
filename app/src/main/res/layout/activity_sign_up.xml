@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SignUpActivity">
 
     <LinearLayout
         android:layout_centerInParent="true"
@@ -14,20 +14,24 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Welcome to GADS"
+            android:text="Create Account GADS"
             android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <Button
-            android:text="Sign up"
+        <EditText
+            android:hint="Enter Email"
+            android:textColor="#000000"
             android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <Button
-            android:text="Sign up"
+        <EditText
+            android:text="Create Password"
             android:layout_margin="16dp"
+            android:inputType="textPassword"
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-    </RelativeLayout>
+
+</RelativeLayout>
