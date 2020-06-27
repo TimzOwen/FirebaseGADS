@@ -14,21 +14,29 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/etName"
             android:text="Create Account GADS"
             android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/etEmail"
             android:hint="Enter Email"
             android:textColor="#000000"
             android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/etPass"
             android:text="Create Password"
             android:layout_margin="16dp"
             android:inputType="textPassword"
             android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnCreate"
+            android:text="Create"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
