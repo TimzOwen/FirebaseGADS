@@ -57,12 +57,17 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //login to admnin
+                        if(task.isSuccessful){
+                            //start an activity or redirect to home page
                     }
+                        else{
+                            // Toast to a user to input in the credentials again
+                        }
                 })
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        //toast
+                        //toast or set Error dialog
                     }
                 });
 
